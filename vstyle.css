@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+span {
+    color: #00b4e1;
+    font-weight: 600;
+}
+
+span1 {
+    color: #e1cf03;
+    font-weight: 600
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: 1s;
+    backdrop-filter: blur(20px); 
+    background: rgb(0, 0, 0, 0.7);
+    border-bottom: 2px solid black;
+}
+
+.header .sticky {
+    background: black;
+}
+
+.logo {
+    font-size: 27px;
+    color: #e7e6e6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 19px;
+    color: #e7e6e6;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a:active{
+    color: #5e5e5e;
+}
+
+.home video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: -80px;
+}
+
+
+.home h2 {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: -450px;
+    left: 41%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.home p {
+    position: absolute;
+    font-size: 30px;
+    margin-top: -150px;
+    left: 29%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    height: 100vh;
+    color: black;
+}
+
+section h1 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 80px;
+}
+
+.revo {
+    padding-top: -20rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.revo p {
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 13px;
+    padding-top: -35rem
+
+
+}
+
+.revo p {
+    
+    padding: 20px; 
+    background-color: #ffffff7d; 
+    margin: 110px; 
+    max-width: 900px; 
+    border-radius: .3rem;
+}
+
+
+
+.revo .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    box-shadow: #000000;
+}
+
+.revo .image {
+    width: 30%; 
+    height: auto; 
+    box-shadow: 4px 4px 8px #2d2d2d;
+}
+
+.features {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    font-weight: 100;
+    min-height: auto;
+    padding-top: 55rem;
+
+}
+
+.features .image-container {
+   
+    display: flex;
+    padding-top: 5rem;
+    justify-content: flex-end;
+    
+}
+
+.features .image {
+    
+    max-width: 40%;
+    margin-left: auto;
+    border-right: 0;
+}
+
+.features p {
+
+    margin-left: 70px;
+    
+    font-weight: 400;
+    font-size: 17px;
+    padding: 50px;
+}
+
+.features .span {
+    font-size: 25px;
+}
+
+.video2 .video-container {
+    margin-top: 2rem;
+    position: relative;
+    width: 50%;
+    display: flex;
+    height: 100;
+}
+
+
+.video2 .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
