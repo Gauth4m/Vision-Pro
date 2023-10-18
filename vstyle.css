@@ -11,6 +11,11 @@ html {
     scroll-behavior: smooth;
 }
 
+*::selection {
+    color:#e77224;
+    background-color: white;
+}
+
 body {
     font-family: sans-serif;
 
@@ -38,8 +43,8 @@ span1 {
     z-index: 100;
     transition: 1s;
     backdrop-filter: blur(20px); 
-    background: rgb(0, 0, 0, 0.7);
-    border-bottom: 2px solid black;
+    background: rgb(0, 0, 0, 0.9);
+   
 }
 
 .header .sticky {
@@ -173,8 +178,9 @@ section h1 {
     flex-direction: column;
     font-size: 35px;
     font-weight: 100;
+    height: 200vh;
     min-height: auto;
-    padding-top: 55rem;
+    padding-top: 2rem;
 
 }
 
@@ -206,17 +212,47 @@ section h1 {
     font-size: 25px;
 }
 
-.video2 .video-container {
-    margin-top: 2rem;
-    position: relative;
-    width: 50%;
+.features2 {
+    justify-content: center;
+    align-items: center;
     display: flex;
-    height: 100;
+    font-size: 35px;
+    font-weight: 100;
+    height: 50vh;
+    min-height: auto;
+    padding-top: 2rem;
+
 }
 
+.features2 .heading {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+    padding: 4rem;
+    margin-bottom: 20rem;
+
+}
+
+.video2 .video-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20rem;
+    border-radius: .3rem;
+    mix-blend-mode:exclusion;
+    
+}
 
 .video2 .video-container video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: .3rem;
+    mix-blend-mode:exclusion;
+    
 }
+
