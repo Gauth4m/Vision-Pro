@@ -11,7 +11,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 15px 5%;
+    padding: 20px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +31,22 @@ body {
     color: #e7e6e6;
     text-decoration: none;
     font-weight: 600;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* 100% of the viewport height */
+    background: #0f0e0e; /* Optional background color */
+    margin-bottom: -26rem;
+    margin-top: -2rem;
+}
+
+.img img {
+    max-width: 70%; /* Adjust the size as needed */
+    max-height: 25vh; /* Adjust the size as needed */
+    object-fit: contain; /* This preserves the aspect ratio */
 }
 
 .box {
