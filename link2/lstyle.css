@@ -6,6 +6,10 @@ body {
     background-color: #0f0e0e;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -37,16 +41,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh; /* 100% of the viewport height */
-    background: #0f0e0e; /* Optional background color */
+    height: 60vh; 
+    background: #0f0e0e; 
     margin-bottom: -26rem;
     margin-top: -2rem;
 }
 
 .img img {
-    max-width: 70%; /* Adjust the size as needed */
-    max-height: 25vh; /* Adjust the size as needed */
-    object-fit: contain; /* This preserves the aspect ratio */
+    max-width: 70%; 
+    max-height: 25vh; 
+    object-fit: contain; 
 }
 
 .box {
@@ -88,6 +92,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .btn-box .btn {
@@ -141,7 +146,7 @@ body {
     margin-bottom: 3rem;
 }
 
-/* Add a hover effect to images */
+
 .image-link {
     position: relative;
     display: inline-block;
@@ -160,7 +165,7 @@ body {
     align-items: center;
 }
 
-/* Styles for the image pop-up */
+
 .popup {
     display: none;
     position: fixed;
@@ -189,4 +194,53 @@ body {
     font-size: 24px;
     cursor: pointer;
     color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem 7%;
+    background: rgba(1, 26, 30, 0.496);
+    margin-bottom: -50px;
+}
+
+.footer-text {
+    flex: 1;
+    color: rgb(127, 127, 127);
+    margin-right: auto; 
+    padding: 0.1rem 7%;
+    
+}
+
+.footer-iconTop {
+    flex: 0;
+    text-align: right;
+}
+
+.footer-text p {
+    font-size: .7rem;
+    margin-right: 9rem;
+    flex: 1;
+}
+
+.footer-iconTop a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-decoration: none;
+    flex: 0;
+    
+}
+
+.footer-iconTop a i {
+    font-size: 3rem;
+    color: rgb(11, 108, 125);
+    text-decoration: none;
+    box-shadow: 6px 6px 8px rgba(4, 181, 194, 0.529);
+    border-radius: 5rem;
+    margin-top: -90px;
 }
