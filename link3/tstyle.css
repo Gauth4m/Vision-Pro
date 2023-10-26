@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden; /* To remove any scrollbars */
+    overflow: hidden; 
     background-color: black;
     font-family: 'Roboto', sans-serif;
 }
@@ -9,13 +9,13 @@ body {
 .img {
     position: relative;
     width: 100%;
-    height: 90vh; /* Make it the full height of the viewport */
+    height: 90vh;
 }
 
 .img img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Scale the image to cover the entire container */
+    object-fit: cover; 
 }
 
 span {
