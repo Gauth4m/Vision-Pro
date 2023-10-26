@@ -528,7 +528,7 @@ section h1 {
 
     .home h2 {
         font-size: 14px;
-        margin-top: -350px;
+        margin-top: -35px;
         left: 35%;
     }
 
@@ -843,12 +843,12 @@ section h1 {
 
 @media only screen and (max-width: 1000px) {
     .home h1 {
-        font-size: 20px;
+        font-size: 10px;
         margin-top: -80px;
     }
 
     .home h2 {
-        font-size: 20px;
+        font-size: 10px;
         margin-top: -450px;
     }
 
@@ -917,18 +917,18 @@ section h1 {
 
 @media only screen and (max-width: 1100px) {
     .home h1 {
-        font-size: 40px;
+        font-size: 20px;
         margin-top: -120px;
     }
 
     .home h2 {
-        font-size: 26px;
+        font-size: 16px;
         margin-top: -550px;
         left: 38%;
     }
 
     .home p {
-        font-size: 16px;
+        font-size: 10px;
         margin-top: -180px;
         left: 30%;
     }
@@ -993,15 +993,16 @@ section h1 {
 
 @media only screen and (max-width: 1200px) {
     .home h1 {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .home h2 {
-        font-size: 24px;
+        font-size: 14px;
+        margin-bottom: 10rem;
     }
 
     .home p {
-        font-size: 24px;
+        font-size: 14px;
     }
 
     .features p {
