@@ -1,4 +1,4 @@
-body {
+* body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -41,20 +41,23 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh; 
+    height: 50vh; 
     background: #0f0e0e; 
-    margin-bottom: -26rem;
-    margin-top: -2rem;
+    margin-bottom: -25rem;
+    margin-top: -1rem;
 }
 
 .img img {
     max-width: 70%; 
-    max-height: 25vh; 
+    max-height: 20vh; 
     object-fit: contain; 
+    display: flex;
+    
 }
 
 .box {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -221,7 +224,8 @@ html {
 
 .footer-text p {
     font-size: .7rem;
-    margin-right: 9rem;
+    margin-right: 15rem;
+    margin-left: -5rem;
     flex: 1;
 }
 

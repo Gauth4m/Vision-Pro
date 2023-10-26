@@ -1,34 +1,7 @@
+const notifyButton = document.querySelector('btn');
 
-const emailInput = document.querySelector('input[name="EmailAddress"]');
+notifyButton.addEventListener('click', function(event) {
+    event.preventDefault();
 
-
-const openPopupButton = document.getElementById('openPopupButton');
-
-
-const closePopupButton = document.getElementById('closePopup');
-
-
-const popup = document.getElementById('popup');
-
-
-function showPopup() {
-    
-    if (emailInput.value.trim() !== '') {
-        
-        popup.style.display = 'block';
-    } else {
-        
-        alert('Please enter your email address.');
-    }
-}
-
-
-function closePopup() {
-    popup.style.display = 'none';
-}
-
-
-openPopupButton.addEventListener('click', showPopup);
-
-
-closePopupButton.addEventListener('click', closePopup);
+    window.location.href = '/link3/tindex.html';
+});
