@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
     notifyButton.addEventListener('click', function (event) {
       event.preventDefault();
   
-      window.location.href = '/link3/tindex.html';
+      window.location.href = 'link3/tindex.html';
     });
   });
